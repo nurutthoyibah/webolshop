@@ -7,7 +7,23 @@
         <meta name="description" content="Menjual berbagai macam perawatan tubuh, mulai dari ujung rambut sampai ujung kaki. Seperti : kosmetik, shampo, skin care, body care">
         <meta name="author" content="nurut thoyibah">
 
+<<<<<<< HEAD
         <title>MUSTIKA SHOP | Website Mustik Shop</title>
+=======
+<<<<<<< HEAD
+        <title>MUSTIKA SHOP | Website Mustik Shop</title>
+=======
+<<<<<<< HEAD
+        <title>MUSTIKA SHOP | Website Mustik Shop</title>
+=======
+<<<<<<< HEAD
+        <title>MUSTIKA SHOP | Website Mustika Shop</title>
+=======
+        <title>MUSTIKA SHOP | Website Mustik Shop</title>
+>>>>>>> 8e117e91417ba6b99f81426a0836d51cd53e1489
+>>>>>>> af1b35d3d1a7e8ab6ac65fcd385bb6fca01835a8
+>>>>>>> 556a8cb3b9ff359f2b39de7358e3e468889c4acf
+>>>>>>> 1d00d7f3b02e85bc7a35fe509ccfa42afecd338a
 
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/business-frontpage.css" rel="stylesheet">
@@ -30,14 +46,42 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container">
+<<<<<<< HEAD
                 <a  class="navbar-brand text-white" href="index.html">Mustika_Shop</a>
+=======
+<<<<<<< HEAD
+                <a class="navbar-brand text-white" href="/">Mustika_Shop</a>
+=======
+<<<<<<< HEAD
+                <a  class="navbar-brand text-white" href="index.html">Mustika_Shop</a>
+=======
+<<<<<<< HEAD
+                <a class="navbar-brand text-white" href="index.html">Mustika_Shop</a>
+=======
+                <a class="navbar-brand text-white" href="/">Mustika_Shop</a>
+>>>>>>> 8e117e91417ba6b99f81426a0836d51cd53e1489
+>>>>>>> af1b35d3d1a7e8ab6ac65fcd385bb6fca01835a8
+>>>>>>> 556a8cb3b9ff359f2b39de7358e3e468889c4acf
+>>>>>>> 1d00d7f3b02e85bc7a35fe509ccfa42afecd338a
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li id="default" class="nav-item">
+<<<<<<< HEAD
                             <a class="nav-link" href="index.html">Menu
+=======
+<<<<<<< HEAD
+                            <a class="nav-link" href="/">Menu
+=======
+<<<<<<< HEAD
+                            <a class="nav-link" href="index.html">Menu
+=======
+                            <a class="nav-link" href="/">Menu
+>>>>>>> af1b35d3d1a7e8ab6ac65fcd385bb6fca01835a8
+>>>>>>> 556a8cb3b9ff359f2b39de7358e3e468889c4acf
+>>>>>>> 1d00d7f3b02e85bc7a35fe509ccfa42afecd338a
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
@@ -48,7 +92,19 @@
                             <a class="nav-link" href="#order.html">Cara Order</a>
                         </li>
                         <li id="kontak" class="nav-item">
+<<<<<<< HEAD
                             <a class="nav-link" href="kontak.html">Buku Tamu</a>
+=======
+<<<<<<< HEAD
+                            <a class="nav-link" href="kontak.html">Buku Tamu</a>
+=======
+<<<<<<< HEAD
+                            <a class="nav-link" href="#kontak.html">Buku Tamu</a>
+=======
+                            <a class="nav-link" href="kontak.html">Buku Tamu</a>
+>>>>>>> af1b35d3d1a7e8ab6ac65fcd385bb6fca01835a8
+>>>>>>> 556a8cb3b9ff359f2b39de7358e3e468889c4acf
+>>>>>>> 1d00d7f3b02e85bc7a35fe509ccfa42afecd338a
                         </li>
                     </ul>
                 </div>
@@ -80,8 +136,12 @@
                     href        = window.location.hash.slice(1),
                     hash        = window.location.hash;
 
+<<<<<<< HEAD
                 $("li#"+(href == ''?'default':href.replace('.html',''))).addClass('active');
                 $('#simpanBukuTamu').click(function(){
+=======
+                $('button#simpanBukuTamu').on('click', function(){
+>>>>>>> 1d00d7f3b02e85bc7a35fe509ccfa42afecd338a
                     alert('asdasdasd');
                     let html    = '',
                         element = $("table#bukuTamu tbody"),
@@ -91,6 +151,10 @@
                         komentar= $("textarea#komentar").text();
 
                     i       += 1;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1d00d7f3b02e85bc7a35fe509ccfa42afecd338a
                     console.log(element);
                     html        += '' +
                         '<tr>' +
@@ -100,8 +164,17 @@
                         '<td>'+jk+'</td>' +
                         '<td>'+komentar+'</td>' +
                         '</tr>'
+<<<<<<< HEAD
                     element.append(html);
                 });
+=======
+
+                    element.append(html);
+                });
+
+                $("li#"+(href == ''?'default':href.replace('.html',''))).addClass('active');
+
+>>>>>>> 1d00d7f3b02e85bc7a35fe509ccfa42afecd338a
                 if(hash != ''){
                     if(href == 'tentangkami.html'){
                         container.addClass('marketing');
@@ -133,6 +206,7 @@
                     $.each(data.productAtas, function(k,v){
                         html    += '' +
                             '<div class="col-lg-4">' +
+<<<<<<< HEAD
                             '<img class="rounded-circle" src="'+v['img']+'" alt="Generic placeholder image" width="140" height="140">' +
                             '<h2>'+v['heading']+'</h2>'+
                             '<p>'+v['description']+'</p>'+
@@ -142,6 +216,17 @@
                         html    += '' +
                             '<div class="col-lg-4">' +
                             '<img class="rounded-circle" src="'+v['img']+'" alt="Generic placeholder image" width="140" height="140">' +
+=======
+<<<<<<< HEAD
+                            '<img class="rounded-circle" src="'+v['img']+(k+1)+'" alt="Generic placeholder image" width="140" height="140">' +
+=======
+<<<<<<< HEAD
+                            '<img class="rounded-circle" src="'+v['img']+'" alt="Generic placeholder image" width="140" height="140">' +
+=======
+                            '<img class="rounded-circle" src="'+v['img']+(k+1)+'" alt="Generic placeholder image" width="140" height="140">' +
+>>>>>>> af1b35d3d1a7e8ab6ac65fcd385bb6fca01835a8
+>>>>>>> 556a8cb3b9ff359f2b39de7358e3e468889c4acf
+>>>>>>> 1d00d7f3b02e85bc7a35fe509ccfa42afecd338a
                             '<h2>'+v['heading']+'</h2>'+
                             '<p>'+v['description']+'</p>'+
                             '</div>'

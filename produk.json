@@ -1,9 +1,17 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+{"productAtas":[{"name":"Produk Kosmetik","heading":"Produk Kosmetik","img":"https://dummyimage.com/300x300/cccccc/FFFFFF&text=produk","description":"Produk Kosmetik - Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna."},{"name":"Produk Busana", "heading":"Produk Busana", "img":"https://dummyimage.com/300x300/cccccc/FFFFFF&text=produk", "description":"Produk Busana - Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna."},{"name":"Produk Peralatan Masak", "heading":"Produk Peralatan Masak", "img":"https://dummyimage.com/300x300/cccccc/FFFFFF&text=produk", "description":"Produk Peralatan Masak - Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna."}]}
+=======
+<<<<<<< HEAD
+>>>>>>> 1d00d7f3b02e85bc7a35fe509ccfa42afecd338a
 {
     "productAtas": [
         {"name":"Produk Kosmetik","heading":"Produk Kosmetik","img":"image/colista.jpg","description":"Produk Kosmetik - Salah satu produk kosmetik yang kami jual adalah colista skin."},
         
         {"name":"Produk Busana", "heading":"Produk Busana", "img":"image/busana.jpg", "description":"Produk Busana - Adapun produk busana yang kami jual mulai dari : atasan, long dress, kemeja, niqob dan set syar'i."},
         
+<<<<<<< HEAD
         {"name":"Produk Peralatan Masak", "heading":"Produk Healthy Drink", "img":"image/jovem.jpg", "description":"Produk Healthy Drink - Produk Healthy Drink atau minuman kesehatan yang kami jual adalah produk dari herbal tiens dan 4jovem."}],
     "productBawah": [
         {"name":"Produk Kosmetik","heading":"Produk Kosmetik","img":"image/colista.jpg","description":"Produk Kosmetik - Salah satu produk kosmetik yang kami jual adalah colista skin."},
@@ -12,3 +20,10 @@
         
         {"name":"Produk Peralatan Masak", "heading":"Produk Healthy Drink", "img":"image/jovem.jpg", "description":"Produk Healthy Drink - Produk Healthy Drink atau minuman kesehatan yang kami jual adalah produk dari herbal tiens dan 4jovem."}]
 }
+=======
+        {"name":"Produk Peralatan Masak", "heading":"Produk Healthy Drink", "img":"image/jovem.jpg", "description":"Produk Healthy Drink - Produk Healthy Drink atau minuman kesehatan yang kami jual adalah produk dari herbal tiens dan 4jovem."}]}
+=======
+{"productAtas":[{"name":"Produk Kosmetik","heading":"Produk Kosmetik","img":"https://dummyimage.com/300x300/cccccc/FFFFFF&text=produk","description":"Produk Kosmetik - Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna."},{"name":"Produk Busana", "heading":"Produk Busana", "img":"https://dummyimage.com/300x300/cccccc/FFFFFF&text=produk", "description":"Produk Busana - Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna."},{"name":"Produk Peralatan Masak", "heading":"Produk Peralatan Masak", "img":"https://dummyimage.com/300x300/cccccc/FFFFFF&text=produk", "description":"Produk Peralatan Masak - Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna."}]}
+>>>>>>> af1b35d3d1a7e8ab6ac65fcd385bb6fca01835a8
+>>>>>>> 556a8cb3b9ff359f2b39de7358e3e468889c4acf
+>>>>>>> 1d00d7f3b02e85bc7a35fe509ccfa42afecd338a
