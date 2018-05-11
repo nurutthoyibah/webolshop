@@ -1,0 +1,7 @@
+{
+    "productAtas": [
+        {"name":"Produk Kosmetik","heading":"Produk Kosmetik","img":"image/colista.jpg","description":"Produk Kosmetik - Salah satu produk kosmetik yang kami jual adalah colista skin."},
+        
+        {"name":"Produk Busana", "heading":"Produk Busana", "img":"image/busana.jpg", "description":"Produk Busana - Adapun produk busana yang kami jual mulai dari : atasan, long dress, kemeja, niqob dan set syar'i."},
+        
+        {"name":"Produk Peralatan Masak", "heading":"Produk Healthy Drink", "img":"image/jovem.jpg", "description":"Produk Healthy Drink - Produk Healthy Drink atau minuman kesehatan yang kami jual adalah produk dari herbal tiens dan 4jovem."}]}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Menjual berbagai macam perawatan tubuh, mulai dari ujung rambut sampai ujung kaki. Seperti : kosmetik, shampo, skin care, body care">
+    <meta name="author" content="nurut thoyibah">
+
+    <title>MUSTIKA SHOP | Website Mustika Shop</title>
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/business-frontpage.css" rel="stylesheet">
+    <style>
+        .marketing .col-lg-4 {
+            margin-bottom: 1.5rem;
+            margin-top: 1.5rem;
+            text-align: center;
+        }
+        .marketing h2 {
+            font-weight: 400;
+        }
+        .marketing .col-lg-4 p {
+            margin-right: .75rem;
+            margin-left: .75rem;
+            text-transform: uppercase !important;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand text-white" href="/">Mustika_Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li id="default" class="nav-item">
+                    <a class="nav-link" href="/">Menu
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li id="tentangkami" class="nav-item">
+                    <a class="nav-link" href="tentangkami.html">Tentang Kami</a>
+                </li>
+                <li id="order" class="nav-item">
+                    <a class="nav-link" href="order.html">Cara Order</a>
+                </li>
+                <li id="kontak" class="nav-item">
+                    <a class="nav-link" href="kontak.html">Buku Tamu</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<header class="business-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="display-3 text-center text-white mt-4"></h1>
+            </div>
+        </div>
+    </div>
+</header>
+<div id="content-utama" class="container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 order-md-1 mt-5 mb-5">
+                <h4 class="mb-3">Isi Buku Tamu Kami</h4>
+                <form autocomplete="off">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="firstName">Nama Depan</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required autofocus>
+                            <div class="invalid-feedback">
+                                Valid first name is required.
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="lastName">Nama Belakang</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                Valid last name is required.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-9 mb-3">
+                            <label for="firstName">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                Valid first name is required.
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="lastName">Jenis Kelamin</label>
+                            <select id="jk" class="form-control">
+                                <option value="L">Laki Laki</option>
+                                <option value="P">Perempuan</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email">Komentar</label>
+                        <textarea type="textarea" class="form-control" id="komentar" placeholder="Isi Komentar ANda" required></textarea>
+                        <input type="button" id="simpanBukuTamu" class="btn btn-primary mt-2" value="simpan"/>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h4>Daftar Buku Tamu</h4>
+                <table id="bukuTamu" class="table table-bordered">
+                    <thead class="bg-primary text-white">
+                    <tr>
+                        <th class="text-center">No.</th>
+                        <th class="text-center">Nama</th>
+                        <th class="text-center">Email</th>
+                        <th class="text-center">Jenis Kelamin</th>
+                        <th>Komentar</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Mustika_Shop</p>
+    </div>
+</footer>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script>
+    let i = 0;
+    $('input#simpanBukuTamu').click(function(){
+        let html    = '',
+            element = $("table#bukuTamu tbody"),
+            name    = $("#firstName").val() + ' ' + $("#lastName").val(),
+            email   = $("#email").val(),
+            jk      = $("select#jk").find(':selected').text(),
+            komentar= $("textarea#komentar").val();
+        i += 1;
+        html        += '' +
+            '<tr>' +
+            '<td>'+i+'</td>' +
+            '<td>'+name+'</td>' +
+            '<td>'+email+'</td>' +
+            '<td>'+jk+'</td>' +
+            '<td>'+komentar+'</td>' +
+            '</tr>'
+
+        element.append(html);
+        $("#firstName").val('');
+        $("#lastName").val('');
+        $("#email").val('');
+        $("select#jk").removeAttr("selected");
+        $("textarea#komentar").val('');
+    });
+</script>
+</body>
+</html>
